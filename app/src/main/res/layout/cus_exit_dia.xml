@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    android:gravity="center">
+    <ImageView
+        android:id="@+id/imageButton"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="end"
+        app:srcCompat="@drawable/closebtn" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_margin="40dp"
+        android:textColor="#1a1a55"
+        android:lineSpacingExtra="6sp"
+        android:gravity="center_horizontal"
+        android:text="Are you sure want to leave exam?"
+     />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:padding="1dp"
+        android:layout_height="wrap_content">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:padding="15dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btngrbg"
+            android:text="YES I want to Leave"
+            android:textColor="@color/white"  />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:padding="5dp"
+        android:background="@drawable/btngrbg"
+        android:text="cancel"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+
+          />
+
+</LinearLayout>
+</LinearLayout>

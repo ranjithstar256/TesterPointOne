@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Registration">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:layout_margin="5dp"
+                    android:inputType="textPersonName"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textStyle="normal"
+                    android:textSize="14sp"
+                    android:textColor="#1a1a55"
+                    android:lineSpacingExtra="7sp"
+                    android:hint="Name"
+                    />
+                <EditText
+                    android:id="@+id/edmail"
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textStyle="normal"
+                    android:textSize="14sp"
+                    android:textColor="#1a1a55"
+                    android:lineSpacingExtra="7sp"
+                    android:hint="Email" />
+                <EditText
+                    android:id="@+id/emob"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textStyle="normal"
+                    android:textSize="14sp"
+                    android:inputType="number"
+
+                    android:textColor="#1a1a55"
+                    android:enabled="false"
+                    android:lineSpacingExtra="7sp"
+                    android:hint="Mobile Number"
+                    />
+                <EditText
+                    android:id="@+id/edob"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textStyle="normal"
+                    android:layout_margin="5dp"
+                  android:editable="false"
+                    android:textSize="14sp"
+                    android:onClick="dat"
+                    android:textColor="#1a1a55"
+                    android:lineSpacingExtra="7sp"
+                    android:hint="Date Of Birth"
+                    />
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:text="Select Gender"
+                    android:layout_height="wrap_content">                </TextView>
+                <RadioGroup
+                    android:tooltipText="Select Gender"
+                    android:layout_width="match_parent"
+                    android:layout_margin="5dp"
+                    android:id="@+id/rg"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:text="Male"
+                     android:id="@+id/ra1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </RadioButton>
+                    <RadioButton
+                        android:text="Female"
+                        android:id="@+id/ra2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </RadioButton>
+                    <RadioButton
+                        android:text="Other"
+                        android:id="@+id/ra3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    </RadioButton>
+                </RadioGroup>
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Select District"
+                    android:layout_height="wrap_content">                </TextView>
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/spinerdis"
+                    android:layout_width="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_height="wrap_content"></androidx.appcompat.widget.AppCompatSpinner>
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:text="Select Taluk"
+                    android:layout_height="wrap_content">                </TextView>
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/spinertaluk"
+                    android:layout_width="match_parent"
+                    android:layout_margin="5dp"
+
+                    android:layout_height="wrap_content"></androidx.appcompat.widget.AppCompatSpinner>
+                <EditText
+                    android:id="@+id/edschl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textStyle="normal"
+                    android:textSize="14sp"
+                    android:textColor="#1a1a55"
+                    android:lineSpacingExtra="7sp"
+                    android:hint="School Name"
+                    />
+                <EditText
+                    android:id="@+id/edaddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textStyle="normal"
+                    android:layout_margin="5dp"
+                    android:textSize="14sp"
+                    android:textColor="#1a1a55"
+                    android:inputType="text"
+                    android:lineSpacingExtra="7sp"
+                    android:hint="Postal Address"
+                    />
+                <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Agree to terms and Conditions"
+                    ></CheckBox>
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="32dp"
+                android:background="@drawable/btngrbg"
+                android:fontFamily="@font/poppins_medium"
+                android:lineSpacingExtra="9sp"
+                android:text="Save Profile"
+                android:textAllCaps="false"
+                android:textColor="#f8f8f8"
+                android:textSize="18sp"
+                android:onClick="gotomain3"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/conftxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="d">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

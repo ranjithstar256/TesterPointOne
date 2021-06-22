@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.am.testerpointone">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TesterPointOne"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".EventRegistration"> </activity>
+        <activity android:name=".Registration">
+
+        </activity>
+        <activity
+            android:name=".MainActivity3"
+            android:label="@string/title_activity_main3">
+
+        </activity>
+        <activity
+            android:name=".MainActivity2" />
+        <activity android:name=".Assessment_Record" />
+        <activity android:name=".Assessment" />
+        <activity android:name=".View_Exam" />
+        <activity android:name=".Examinations" />
+        <activity android:name=".NoItemInternetImage" />
+        <activity android:name=".tLogin" />
+        <activity
+            android:name=".EventDetails"
+            android:theme="@style/Theme.AppCompat.Lightt" />
+        <activity android:name=".Home" />
+        <activity
+            android:name=".OTPscreen"
+            android:theme="@style/Theme.AppCompat.Lightt">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <service
+            android:name=".MyFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity
+            android:name=".Splash"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

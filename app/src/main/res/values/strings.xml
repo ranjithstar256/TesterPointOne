@@ -1,0 +1,422 @@
+<resources>
+    <string name="app_name">Tester</string>
+    <string name="verfication_sent_to">Verification OTP sent to</string>
+    <string name="yes_dialog">Yes</string>
+    <string name="no_dialog">No</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="backbutton">Back</string>
+    <string name="title_activity_main3">Tester</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_partner">Partner with Us</string>
+    <string name="title_elearning">E-Learning</string>    <string name="title_exams">Exams</string>    <string name="title_events">Events</string>
+
+    <string-array name="districts">
+        <item>Bagalkot</item>
+        <item>Bangalore Urban</item>
+        <item>Bangalore Rural</item>
+        <item>Belgaum</item>
+        <item>Bellary</item>
+        <item>Bidar</item>
+        <item>Vijayapura</item>
+        <item>Chamarajanagar</item>
+        <item>Chikballapur</item>
+        <item>Chikmagalur</item>
+        <item>Chitradurga</item>
+        <item>Dakshina Kannada</item>
+        <item>Davanagere</item>
+        <item>Dharwad</item>
+        <item>Gadag</item>
+        <item>Gulbarga</item>
+        <item>Hassan</item>
+        <item>Haveri</item>
+        <item>Kodagu</item>
+        <item>Kolar</item>
+        <item>Koppal</item>
+        <item>Mandya</item>
+        <item>Mysore</item>
+        <item>Raichur</item>
+        <item>Ramanagara</item>
+        <item>Shimoga </item>
+        <item>Tumkur </item>
+        <item>Udupi </item>
+        <item>Uttara Kannada</item>
+        <item>Vijayanagara </item>
+        <item>Yadgir </item>
+    </string-array>
+
+    <string-array name="Bagalkot">
+        <item>Badami</item>
+        <item>Bagalkot</item>
+        <item>Bilgi</item>
+        <item>Ilkal</item>
+        <item>Hunagunda</item>
+        <item>Rabkavi Banhatti</item>
+        <item>Terdal</item>
+        <item>Guledgudda</item>
+        <item>Jamkhandi</item>
+        <item>Mudhol</item>
+    </string-array>
+
+
+    <string-array
+        name="Bangalore_Urban_taluk">
+        <item>Anekal</item>
+        <item>Yelahanka</item>
+        <item>Bangalore North</item>
+        <item>Bangalore East</item>
+        <item>Bangalore South</item>
+    </string-array>
+
+    <string-array name="Bangalore_Rural">
+        <item>Devanahalli</item>
+        <item>Doddaballapura</item>
+        <item>Hosakote</item>
+        <item>Nelamangala</item>
+    </string-array>
+
+    <string-array name="Belgaum">
+        <item>Athni</item>
+        <item>Bailahongal</item>
+        <item>Belgaum</item>
+        <item>Chikodi</item>
+        <item>Gokak</item>
+        <item>Hukkeri</item>
+        <item>Khanapur</item>
+        <item>Kagawad</item>
+        <item>Mudalagi</item>
+        <item>Nippani</item>
+        <item>Kittur</item>
+        <item>Raybag</item>
+        <item>Ramdurg</item>
+        <item>Saundatti</item>
+    </string-array>
+
+
+    <string-array name="Bellary">
+        <item>Bellari</item>
+        <item>Kampli</item>
+        <item>Kurugodu</item>
+        <item>Sanduru</item>
+        <item>Siruguppa</item>
+    </string-array>
+
+
+    <string-array name="Bidar">
+        <item>Bidar</item>
+        <item>Basavakalyan</item>
+        <item>Kamalnagar</item>
+        <item>Hulasuru</item>
+        <item>Chitgoppa</item>
+        <item>Bhalki</item>
+        <item>Homnabad</item>
+        <item>Aurad</item>
+    </string-array>
+
+
+
+    <string-array name="Vijayapura">
+        <item>Vijayapura</item>
+        <item>Indi</item>
+        <item>Muddebihal</item>
+        <item>Babaleshwar</item>
+        <item>Nidagundi</item>
+        <item>Tikota</item>
+        <item>Devara Hippargi</item>
+        <item>Talikote</item>
+        <item>Chadchan</item>
+        <item>Kolhar</item>
+        <item>Sindgi</item>
+        <item>Basavana Bagevadi</item>
+        <item>Almel</item>
+    </string-array>
+
+
+
+    <string-array name="Chamarajanagar">
+        <item>Chamarajanagar</item>
+        <item>Gundlupet</item>
+        <item>Kollegal</item>
+        <item>Hanur</item>
+        <item>Yelandur</item>
+    </string-array>
+
+
+
+    <string-array name="Chikballapur">
+        <item>Bagepalli</item>
+        <item>Chikballapur</item>
+        <item>Chintamani</item>
+        <item>Gauribidanur</item>
+        <item>Gudibanda</item>
+        <item>Sidlaghatta</item>
+    </string-array>
+
+
+
+    <string-array name="Chikmagalur">
+        <item>Chikmagalur</item>
+        <item>Kadur</item>
+        <item>Koppa</item>
+        <item>Mudigere</item>
+        <item>Narasimharajapura</item>
+        <item>Sringeri</item>
+        <item>Ajjampura</item>
+        <item>Tarikere</item>
+    </string-array>
+
+
+    <string-array name="Chitradurga">
+        <item>Challakere</item>
+        <item>Chitradurga</item>
+        <item>Hiriyur</item>
+        <item>Holalkere</item>
+        <item>Hosadurga</item>
+        <item>Molakalmuru</item>
+    </string-array>
+
+
+    <string-array name="Dakshina_Kannada">
+        <item>Bantwal</item>
+        <item>Beltangadi</item>
+        <item>Mangalore</item>
+        <item>Moodabidri</item>
+        <item>Kadaba</item>
+        <item>Puttur</item>
+        <item>Sulya</item>
+    </string-array>
+
+
+    <string-array name="Davanagere">
+    <item>Channagiri</item>
+    <item>Davanagere</item>
+    <item>Harihar</item>
+    <item>Honnali</item>
+    <item>Jagalur</item>
+    <item>Nyamati</item>
+
+</string-array>
+
+
+
+    <string-array name="Dharwad">
+    <item>Annigeri</item>
+    <item>Alnavara</item>
+    <item>Dharwad</item>
+    <item>Hubli</item>
+    <item>Hubli City</item>
+    <item>Kalghatgi</item>
+    <item>Kundgol</item>
+    <item>Navalgund</item>
+</string-array>
+
+
+
+    <string-array name="Gadag">
+    <item>Gadag-Betigeri</item>
+    <item>Mundargi</item>
+    <item>Nargund</item>
+    <item>Gajendragad</item>
+    <item>Lakshmeshwar</item>
+    <item>Ron</item>
+    <item>Shirhatti</item>
+</string-array>
+
+
+    <string-array name="Gulbarga">
+    <item>Afzalpur</item>
+    <item>Aland</item>
+    <item>Chincholi</item>
+    <item>Chitapur</item>
+    <item>Gulbarga</item>
+    <item>Kamalapura</item>
+    <item>Kalagi</item>
+    <item>Jevargi</item>
+    <item>Sedam</item>
+    <item>Shahbad</item>
+    <item>Yedrami</item>
+</string-array>
+
+
+
+
+    <string-array name="Hassan">
+    <item>Alur</item>
+    <item>Arkalgud</item>
+    <item>Arsikere</item>
+    <item>Belur</item>
+    <item>Channarayapattana</item>
+    <item>Hassan</item>
+    <item>Holenarsipur</item>
+    <item>Sakleshpur</item>
+</string-array>
+
+
+
+    <string-array name="Haveri">
+    <item>Byadgi</item>
+    <item>Hangal</item>
+    <item>Haveri</item>
+    <item>Hirekerur</item>
+    <item>Ranibennur</item>
+    <item>Rattihalli</item>
+    <item>Savanur</item>
+    <item>Shiggaon</item>
+</string-array>
+
+
+
+    <string-array name="Kodagu">
+    <item>Madikeri</item>
+    <item>Kushalanagar</item>
+    <item>Virajpet</item>
+    <item>Somvarpet</item>
+    <item>Ponnampet</item>
+</string-array>
+
+
+    <string-array name="Kolar">
+    <item>Bangarapet</item>
+    <item>Kolar</item>
+    <item>Kolar Gold Fields</item>
+    <item>Malur</item>
+    <item>Mulbagal</item>
+    <item>Srinivaspur</item>
+</string-array>
+
+
+    <string-array name="Koppal">
+    <item>Gangawati</item>
+    <item>Kanakagiri</item>
+    <item>Kuknur</item>
+    <item>Karatagi</item>
+    <item>Koppal</item>
+    <item>Kushtagi</item>
+    <item>Yelbarga</item>
+</string-array>
+
+
+    <string-array name="Mandya">
+    <item>Krishnarajpet</item>
+    <item>Maddur</item>
+    <item>Malavalli</item>
+    <item>Mandya</item>
+    <item>Nagamangala</item>
+    <item>Pandavapura</item>
+    <item>Shrirangapattana</item>
+</string-array>
+
+
+
+    <string-array name="Mysore">
+    <item>Heggadadevana kote</item>
+    <item>Hunsur</item>
+    <item>Krishnarajanagara</item>
+    <item>Mysore</item>
+    <item>Nanjangud</item>
+    <item>Piriyapatna</item>
+    <item>Saragur</item>
+    <item>T.Narsipur</item>
+</string-array>
+
+
+    <string-array name="Raichur">
+    <item>Devadurga</item>
+    <item>Lingsugur</item>
+    <item>Manvi</item>
+    <item>Maski</item>
+    <item>Raichur</item>
+    <item>Sindhnur</item>
+    <item>Sirwar</item>
+</string-array>
+
+
+    <string-array name="Ramanagara">
+    <item>Channapatna</item>
+    <item>Kanakapura</item>
+    <item>Ramanagara</item>
+    <item>Magadi</item>
+</string-array>
+
+
+
+    <string-array name="Shimoga">
+    <item>Bhadravati</item>
+    <item>Hosanagara</item>
+    <item>Sagar</item>
+    <item>Shikaripura</item>
+    <item>Shimoga</item>
+    <item>Sorab</item>
+    <item>Thirthahalli</item>
+</string-array>
+
+
+    <string-array name="Tumkur">
+    <item>Chiknayakanhalli</item>
+    <item>Gubbi</item>
+    <item>Huliyar</item>
+    <item>Koratagere</item>
+    <item>Kunigal</item>
+    <item>Madhugiri</item>
+    <item>Pavagada</item>
+    <item>Sira</item>
+    <item>Tiptur</item>
+    <item>Tumkur</item>
+    <item>Turuvekere</item>
+</string-array>
+
+
+    <string-array name="Udupi">
+    <item>Udupi</item>
+    <item>Brahmavara</item>
+    <item>Karkal</item>
+    <item>Kapu</item>
+    <item>Kundapura</item>
+    <item>Hebri</item>
+    <item>Byndoor</item>
+</string-array>
+
+
+    <string-array
+        name="Uttara_Kannada">
+    <item>Ankola</item>
+    <item>Bhatkal</item>
+    <item>Dandeli</item>
+    <item>Haliyal</item>
+    <item>Honnavar</item>
+    <item>Joida</item>
+    <item>Karwar</item>
+    <item>Kumta</item>
+    <item>Mundgod</item>
+    <item>Siddapur</item>
+    <item>Sirsi</item>
+    <item>Yellapur</item>
+</string-array>
+
+
+    <string-array
+        name="Vijayanagara">
+    <item>Harapanahalli</item>
+    <item>Hagaribommanahalli</item>
+    <item>Hoovina Hadagali</item>
+    <item>Hospete</item>
+    <item>Kottur</item>
+    <item>Kudligi</item>
+</string-array>
+
+    <string-array name="Yadgir">
+        <item>Gurumitkal</item>
+        <item>Hunasagi</item>
+        <item>Shahpur</item>
+        <item>Shorapur</item>
+        <item>Vadagera</item>
+        <item>Yadgir</item>
+    </string-array>
+
+</resources>
